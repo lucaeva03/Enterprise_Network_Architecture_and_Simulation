@@ -1,0 +1,6 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\lucae\Documents\GNS3 Project\Progetto Esame\Salvataggio 4 - Router e Host configurati\Progetto Esame Laboratorio Reti Evangelisti e Horowsky\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/lucae/Documents/GNS3 Project/Progetto Esame/Salvataggio 4 - Router e Host configurati/Progetto Esame Laboratorio Reti Evangelisti e Horowsky/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames

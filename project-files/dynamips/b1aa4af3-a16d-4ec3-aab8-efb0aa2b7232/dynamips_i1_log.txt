@@ -1,0 +1,51 @@
+Jul 13 17:26:23.808 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 13 17:26:23.809 HYPERVISOR: Started on IP = localhost, TCP port = 9541.
+Jul 13 17:26:24.064 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 13 17:26:24.065 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\lucae\Documents\GNS3 Project\Progetto Esame\Salvataggio 10\Progetto Esame Laboratorio Reti Evangelisti e Horowsky\project-files\dynamips 
+Jul 13 17:26:24.079 GENERAL: working_dir=C:\Users\lucae\Documents\GNS3 Project\Progetto Esame\Salvataggio 10\Progetto Esame Laboratorio Reti Evangelisti e Horowsky\project-files\dynamips
+Jul 13 17:26:24.079 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\lucae\Documents\GNS3 Project\Progetto Esame\Salvataggio 10\Progetto Esame Laboratorio Reti Evangelisti e Horowsky\project-files\dynamips\4d92f0d7-e3e7-4b90-85ba-7e70573e7c30 
+Jul 13 17:26:24.080 GENERAL: working_dir=C:\Users\lucae\Documents\GNS3 Project\Progetto Esame\Salvataggio 10\Progetto Esame Laboratorio Reti Evangelisti e Horowsky\project-files\dynamips\4d92f0d7-e3e7-4b90-85ba-7e70573e7c30
+Jul 13 17:26:24.080 HYPERVISOR: exec_cmd: vm create R-D 3 c7200 
+Jul 13 17:26:24.081 VM: VM R-D created.
+Jul 13 17:26:24.082 HYPERVISOR: exec_cmd: vm set_con_tcp_port R-D 5006 
+Jul 13 17:26:24.082 HYPERVISOR: exec_cmd: c7200 get_mac_addr R-D 
+Jul 13 17:26:24.082 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:24.082 HYPERVISOR: exec_cmd: vm slot_add_binding R-D 0 0 C7200-IO-FE 
+Jul 13 17:26:24.083 HYPERVISOR: exec_cmd: vm set_disk0 R-D 0 
+Jul 13 17:26:24.084 HYPERVISOR: exec_cmd: vm set_exec_area R-D 64 
+Jul 13 17:26:24.084 HYPERVISOR: exec_cmd: vm set_ios R-D C:/Users/lucae/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 13 17:26:24.086 HYPERVISOR: exec_cmd: c7200 set_mac_addr R-D ca03.4d4c.0000 
+Jul 13 17:26:24.086 HYPERVISOR: exec_cmd: vm set_nvram R-D 512 
+Jul 13 17:26:24.087 HYPERVISOR: exec_cmd: vm set_ram R-D 512 
+Jul 13 17:26:24.087 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:24.087 HYPERVISOR: exec_cmd: vm slot_add_binding R-D 1 0 PA-2FE-TX 
+Jul 13 17:26:24.088 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:24.088 HYPERVISOR: exec_cmd: vm slot_add_binding R-D 2 0 PA-2FE-TX 
+Jul 13 17:26:24.088 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:24.088 HYPERVISOR: exec_cmd: vm slot_add_binding R-D 3 0 PA-2FE-TX 
+Jul 13 17:26:24.089 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:24.089 HYPERVISOR: exec_cmd: vm slot_add_binding R-D 4 0 PA-4E 
+Jul 13 17:26:29.020 HYPERVISOR: exec_cmd: nio create_udp udp-652dac7a-154a-4d7c-bf18-176c8e01c2b3 10001 127.0.0.1 10002 
+Jul 13 17:26:29.351 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R-D 1 0 udp-652dac7a-154a-4d7c-bf18-176c8e01c2b3 
+Jul 13 17:26:29.351 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:29.425 HYPERVISOR: exec_cmd: nio create_udp udp-2d67574e-ee7f-4842-b228-3d866069adb1 10005 127.0.0.1 10006 
+Jul 13 17:26:29.428 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R-D 1 1 udp-2d67574e-ee7f-4842-b228-3d866069adb1 
+Jul 13 17:26:29.429 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:29.789 HYPERVISOR: exec_cmd: nio create_udp udp-253cc396-e3ff-43f7-8e47-c03b0eec729c 10014 127.0.0.1 10015 
+Jul 13 17:26:29.790 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R-D 2 0 udp-253cc396-e3ff-43f7-8e47-c03b0eec729c 
+Jul 13 17:26:29.790 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:30.514 HYPERVISOR: exec_cmd: nio create_udp udp-6569e78e-d56d-4d2a-b6e1-2d97bbcf2abf 10029 127.0.0.1 10030 
+Jul 13 17:26:30.516 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R-D 2 1 udp-6569e78e-d56d-4d2a-b6e1-2d97bbcf2abf 
+Jul 13 17:26:30.516 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 17:26:31.401 HYPERVISOR: exec_cmd: nio create_udp udp-a6b67885-130d-4ef5-a3cc-1b16e5858aa3 10050 127.0.0.1 10051 
+Jul 13 17:26:31.404 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R-D 0 0 udp-a6b67885-130d-4ef5-a3cc-1b16e5858aa3 
+Jul 13 17:26:31.405 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 18:46:19.464 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 18:46:19.466 HYPERVISOR: exec_cmd: vm extract_config R-D 
+Jul 13 18:46:21.976 HYPERVISOR: exec_cmd: vm get_status R-D 
+Jul 13 18:46:21.977 HYPERVISOR: exec_cmd: vm extract_config R-D 
+Jul 13 18:46:21.977 HYPERVISOR: exec_cmd: vm delete R-D 
+Jul 13 18:46:21.977 VM: VM R-D destroyed.
+Jul 13 18:46:21.978 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 13 18:46:22.307 HYPERVISOR: Stopped.
+Jul 13 18:46:22.307 GENERAL: reset done.
